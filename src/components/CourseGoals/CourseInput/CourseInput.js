@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import styled from "styled-components";
+//import styled from "styled-components";
 
 import Button from '../../UI/Button/Button';
 import styles from './CourseInput.module.css';
 
-const FormControl = styled.div`
+/*const FormControl = styled.div`
   margin: 0.5rem 0;
 
   & label {
@@ -28,7 +28,7 @@ const FormControl = styled.div`
     outline: none;
     background: #fad0ec;
     border-color: #8b005d;
-  }`
+  }`*/
 
 const CourseInput = props => {
     const [enteredValue, setEnteredValue] = useState('');
